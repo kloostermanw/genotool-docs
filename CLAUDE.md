@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a documentation site for GenoTool, a web-based genogram creation tool. The site is built using MkDocs with the Material theme and automatically deployed to https://docs.genotool.com via GitHub Actions.
+This is a documentation site for GenoTool, a web-based genogram creation tool. The site is built using Zensical (successor to MkDocs Material) and automatically deployed to https://docs.genotool.com via GitHub Actions.
 
 **Main Application Repository**: https://github.com/kloostermanw/genotool
 **Production Application**: https://app.genotool.com
@@ -16,22 +16,19 @@ This repository contains only the documentation; the actual GenoTool application
 ### Local Development
 ```bash
 # Install dependencies
-pip install mkdocs-material
+pip install zensical
 
 # Start local development server (with live reload)
-mkdocs serve
+zensical serve
 
 # Build the static site
-mkdocs build
+zensical build
 ```
 
-The local server runs at http://127.0.0.1:8000/ by default.
+The local server runs at http://localhost:8000/ by default.
 
 ### Deployment
-Deployment is automatic via GitHub Actions on push to `master` or `main` branches. Manual deployment:
-```bash
-mkdocs gh-deploy --force
-```
+Deployment is automatic via GitHub Actions on push to `master` or `main` branches.
 
 ## Repository Structure
 
@@ -39,7 +36,7 @@ mkdocs gh-deploy --force
   - `index.md` - Homepage/landing page
   - `*.md` - Individual documentation pages (getting-started, groups, fonts, birthday, etc.)
   - `assets/` - Images, logos, and static assets
-- `mkdocs.yml` - MkDocs configuration (theme, extensions, navigation)
+- `mkdocs.yml` - Zensical/MkDocs configuration (theme, extensions, navigation)
 - `.github/workflows/ci.yml` - GitHub Actions CI/CD pipeline
 - `.gitrelease` - Git-flow release configuration
 
@@ -75,5 +72,5 @@ When adding new documentation, use these extensions to enhance content presentat
 
 - All documentation files go in `docs/` directory
 - Screenshots/images go in `docs/assets/` and are referenced as `assets/filename.png`
-- The site has no explicit navigation structure in mkdocs.yml, so pages appear in alphabetical order
+- Navigation is explicitly defined in mkdocs.yml
 - GenoTool is consistently referred to as "GenoTool" or "Genotool" (inconsistent in existing docs)

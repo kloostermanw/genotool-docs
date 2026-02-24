@@ -1,9 +1,35 @@
 # GenoTool
 
-Welcome to the official documentation site for GenoTool! This resource is designed to help you get the most out of our platform, whether you're just starting or are an experienced user.
+Welcome to the official documentation for GenoTool! GenoTool makes it easy to create genograms of any size. Select a person and start building your genogram by adding parents, children, or partners — GenoTool handles the connecting lines automatically.
 
-GenoTool is a powerful solution for whether you want to make a small or an extensive genogram, with the Genotool it will be super easy. With a minimum of clicks you can easily build your genogram. We made it easy for you by adding a person in the genogram. Select the person and start making your genogram by adding for example parents or children. Do not worry about the lines between them, this is taking care of by the program. Here, you’ll find everything from step-by-step guides to in-depth technical references, covering a range of features to support your work.
+## Getting Started
 
-Our documentation is regularly updated with the latest information to ensure you have access to the newest features and best practices. Whether you're part of a team or an individual user, we aim to make your experience with GenoTool smooth and efficient.
+- [Getting Started](getting-started.md) - Learn the basics of the GenoTool canvas
 
-Feel free to explore, and if you have any questions, don’t hesitate to reach out to our support team.
+## Drawing Your Genogram
+
+- [Drawing Management](drawing-management.md) - Create, rename, duplicate, and delete drawings
+- [Adding Family Members](adding-family-members.md) - Add partners, children, parents, and twins
+- [Setting Up a Person](setting-up-person.md) - Edit names, gender, medical info, and more
+- [Family Relations](relations.md) - Marriage, divorce, cohabitation, and 25 relationship types
+- [Emotional Relations](emotional-relations.md) - Love, discord, abuse, and 36 emotional dynamics
+
+## Settings & Customization
+
+- [Canvas Settings](canvas-settings.md) - Positioning mode, grid, person size, and distances
+- [Fonts](fonts.md) - Font sizes and font type
+- [Birthday / Age](birthday.md) - Age display options and orientation
+- [Legend](legend.md) - Legend position, orientation, and visibility
+- [Groups](groups.md) - Create and manage person groups
+- [Zoom & Navigation](zoom-and-navigation.md) - Zoom and pan the canvas
+
+## Export & Import
+
+- [Export & Import](export-import.md) - Download as JPG, export/import as JSON
+
+## Account & Teams
+
+- [Account Management](account.md) - Registration, login, profile, and password
+- [Teams](teams.md) - Team roles, invitations, and sub-teams
+- [Subscriptions](subscriptions.md) - Plans, billing, and trials
+- [Cancel Subscription](cancel-subscription.md) - How to cancel your subscription

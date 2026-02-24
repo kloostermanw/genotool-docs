@@ -10,7 +10,7 @@ theme:
   features:
     - navigation.footer
   palette:
-    # Dark Mode
+    # Dark Mode
     - scheme: slate
       toggle:
         icon: material/weather-sunny
@@ -25,6 +25,29 @@ theme:
         name: Light mode
       primary: #160781
       accent: deep orange
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Drawing Your Genogram:
+    - Drawing Management: drawing-management.md
+    - Adding Family Members: adding-family-members.md
+    - Setting Up a Person: setting-up-person.md
+    - Family Relations: relations.md
+    - Emotional Relations: emotional-relations.md
+  - Settings & Customization:
+    - Canvas Settings: canvas-settings.md
+    - Fonts: fonts.md
+    - Birthday / Age: birthday.md
+    - Legend: legend.md
+    - Groups: groups.md
+    - Zoom & Navigation: zoom-and-navigation.md
+  - Export & Import: export-import.md
+  - Account & Teams:
+    - Account Management: account.md
+    - Teams: teams.md
+    - Subscriptions: subscriptions.md
+    - Cancel Subscription: cancel-subscription.md
 
 markdown_extensions:
   - attr_list
@@ -54,5 +77,4 @@ extra:
     - icon: simple/linkedin
       link: https://www.linkedin.com/company/genotool
 
-copyright: Copyright &copy; 2024 Genotool.com
-  
+copyright: Copyright &copy; 2026 Genotool.com

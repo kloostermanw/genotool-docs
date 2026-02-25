@@ -70,11 +70,4 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 
-extra:
-  social:
-    - icon: simple/youtube
-      link: https://www.youtube.com/@genotoolonline3189
-    - icon: simple/linkedin
-      link: https://www.linkedin.com/company/genotool
-
 copyright: Copyright &copy; 2026 Genotool.com

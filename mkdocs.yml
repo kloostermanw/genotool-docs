@@ -1,30 +1,23 @@
 site_name: Documention for Genotool
 site_url: https://docs.genotool.com
+site_description: "Documentation for GenoTool — the easy-to-use online genogram editor for therapists, social workers, and counselors. Create and share professional genograms for free."
 theme:
   name: material
+  custom_dir: docs/overrides
   font:
-    text: Merriweather Sans
-    code: Red Hat Mono
+    text: DM Sans
+    code: JetBrains Mono
   logo: assets/logo.png
   favicon: assets/favicon.ico
   features:
     - navigation.footer
   palette:
-    # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: #160781
-      accent: deep purple
+    scheme: default
+    primary: custom
+    accent: custom
 
-    # Light Mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light mode
-      primary: #160781
-      accent: deep orange
+extra_css:
+  - assets/stylesheets/custom.css
 
 nav:
   - Home: index.md

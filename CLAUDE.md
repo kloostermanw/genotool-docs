@@ -74,3 +74,4 @@ When adding new documentation, use these extensions to enhance content presentat
 - Screenshots/images go in `docs/assets/` and are referenced as `assets/filename.png`
 - Navigation is explicitly defined in mkdocs.yml
 - GenoTool is consistently referred to as "GenoTool" or "Genotool" (inconsistent in existing docs)
+

@@ -6,3 +6,7 @@
   <meta property="og:url" content="{{ page.canonical_url }}" />
   <meta property="og:site_name" content="{{ config.site_name }}" />
 {% endblock %}
+{% block content %}
+  <a href="https://genotool.com" class="md-button md-button--primary md-button--right">Try GenoTool for free</a>
+  {{ super() }}
+{% endblock %}

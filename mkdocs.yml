@@ -63,4 +63,4 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 
-copyright: Copyright &copy; 2026 Genotool.com
+copyright: Copyright &copy; 2026 <a href="https://genotool.com">Genotool.com</a>

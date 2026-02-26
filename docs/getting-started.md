@@ -13,3 +13,5 @@ By selecting the first person in the drawing a detail menu on the left shows up 
 Here can you store and change information about this selected person, the first name will be display in the drawing. By changing the gender, automatically the symbol the changes correspondely.
 see [setting up person](setting-up-person.md)
 
+Ready to create your genogram? Head over to [genotool.com](https://genotool.com) to get started.
+

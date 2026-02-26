@@ -15,14 +15,24 @@ This repository contains only the documentation; the actual GenoTool application
 
 ### Local Development
 ```bash
+# Create venvs
+mkdir ~/venvs
+python3 -m venv ~/venvs/zensical
+cd ~/venvs/zensical
+source bin/activate
+
 # Install dependencies
 pip install zensical
+```
 
-# Start local development server (with live reload)
-zensical serve
+### Start local development server (with live reload)
+```
+~/venvs/zensical/bin/zensical serve
+```
 
-# Build the static site
-zensical build
+### Build the static site
+```
+~/venvs/zensical/bin/zensical build
 ```
 
 The local server runs at http://localhost:8000/ by default.

@@ -2,6 +2,8 @@
 
 Welcome to the official documentation for GenoTool! GenoTool makes it easy to create genograms of any size. Select a person and start building your genogram by adding parents, children, or partners — GenoTool handles the connecting lines automatically.
 
+Visit [genotool.com](https://genotool.com) to start creating genograms online.
+
 ## Getting Started
 
 - [Getting Started](getting-started.md) - Learn the basics of the GenoTool canvas

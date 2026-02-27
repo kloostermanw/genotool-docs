@@ -1,13 +1,14 @@
-site_name: Documention for Genotool
-site_url: https://docs.genotool.com
-site_description: "Documentation for GenoTool — the easy-to-use online genogram editor for therapists, social workers, and counselors. Create and share professional genograms for free."
+site_name: Documentatie voor Genotool
+site_url: https://docs.genotool.com/nl/
+site_description: "Documentatie voor GenoTool — de gebruiksvriendelijke online genogram-editor voor therapeuten, maatschappelijk werkers en hulpverleners. Maak en deel professionele genogrammen gratis."
 
-docs_dir: docs/en
+docs_dir: docs/nl
+site_dir: site/nl
 
 theme:
   name: material
   custom_dir: docs/overrides
-  language: en
+  language: nl
   font:
     text: DM Sans
     code: JetBrains Mono
@@ -34,26 +35,26 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
-  - Drawing Your Genogram:
-    - Drawing Management: drawing-management.md
-    - Adding Family Members: adding-family-members.md
-    - Setting Up a Person: setting-up-person.md
-    - Family Relations: family-relations.md
-    - Emotional Relations: emotional-relations.md
-  - Settings & Customization:
-    - Canvas Settings: canvas-settings.md
-    - Fonts: fonts.md
-    - Birthday / Age: birthday.md
-    - Legend: legend.md
-    - Groups: groups.md
-    - Zoom & Navigation: zoom-and-navigation.md
-  - Export & Import: export-import.md
+  - Aan de slag: aan-de-slag.md
+  - Uw genogram tekenen:
+    - Tekeningbeheer: tekeningbeheer.md
+    - Familieleden toevoegen: familieleden-toevoegen.md
+    - Een persoon instellen: persoon-instellen.md
+    - Familie relaties: familie-relaties.md
+    - Emotionele relaties: emotionele-relaties.md
+  - Instellingen & Aanpassing:
+    - Werkblad-instellingen: werkblad-instellingen.md
+    - Lettertypen: lettertypen.md
+    - Verjaardag / Leeftijd: verjaardag-leeftijd.md
+    - Legenda: legenda.md
+    - Groepen: groepen.md
+    - Zoom & Navigatie: zoom-en-navigatie.md
+  - Exporteren: exporteren.md
   - Account & Teams:
-    - Account Management: account.md
+    - Accountbeheer: accountbeheer.md
     - Teams: teams.md
-    - Subscriptions: subscriptions.md
-    - Cancel Subscription: cancel-subscription.md
+    - Abonnementen: abonnementen.md
+    - Abonnement opzeggen: abonnement-opzeggen.md
 
 markdown_extensions:
   - attr_list

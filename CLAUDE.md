@@ -25,14 +25,21 @@ source bin/activate
 pip install zensical
 ```
 
-### Start local development server (with live reload)
+### Start local development server English only (with live reload)
 ```
 ~/venvs/zensical/bin/zensical serve
 ```
+### Start local development server Dutch only (with live reload)
+```
+~/venvs/zensical/bin/zensical serve -f mkdocs.nl.yml
+```
 
 ### Build the static site
+Full site (both languages, no live reload): build both, then serve site/
 ```
-~/venvs/zensical/bin/zensical build
+~/venvs/zensical/bin/zensical build --clean
+~/venvs/zensical/bin/zensical build -f mkdocs.nl.yml
+~/venvs/zensical/bin/python3 -m http.server 8000 --directory site
 ```
 
 The local server runs at http://localhost:8000/ by default.

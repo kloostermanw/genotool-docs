@@ -13,7 +13,7 @@ Visit [genotool.com](https://genotool.com) to start creating genograms online.
 - [Drawing Management](drawing-management.md) - Create, rename, duplicate, and delete drawings
 - [Adding Family Members](adding-family-members.md) - Add partners, children, parents, and twins
 - [Setting Up a Person](setting-up-person.md) - Edit names, gender, medical info, and more
-- [Family Relations](relations.md) - Marriage, divorce, cohabitation, and 25 relationship types
+- [Family Relations](family-relations.md) - Marriage, divorce, cohabitation, and 25 relationship types
 - [Emotional Relations](emotional-relations.md) - Love, discord, abuse, and 36 emotional dynamics
 
 ## Settings & Customization

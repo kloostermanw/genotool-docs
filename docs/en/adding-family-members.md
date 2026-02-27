@@ -9,7 +9,7 @@ To add a partner to a person:
 1. Select a person in the drawing.
 2. In the detail panel, click **Add Partner**.
 3. A new person is created and linked to the selected person with a family relation.
-4. Set the relationship type (e.g., Marriage, Cohabitation) in the relation settings. See [Family Relations](relations.md) for all available types.
+4. Set the relationship type (e.g., Marriage, Cohabitation) in the relation settings. See [Family Relations](family-relations.md) for all available types.
 
 ## Adding Children
 
@@ -77,7 +77,7 @@ If the drawing becomes too complex for automatic positioning, GenoTool will show
 
 ## See Also
 
-- [Family Relations](relations.md) - Relationship types between partners
+- [Family Relations](family-relations.md) - Relationship types between partners
 - [Emotional Relations](emotional-relations.md) - Emotional dynamics between persons
 - [Setting Up a Person](setting-up-person.md) - Editing person details
 - [Canvas Settings](canvas-settings.md) - Auto vs. manual positioning
